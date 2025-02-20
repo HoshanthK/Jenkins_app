@@ -4,6 +4,6 @@ import App from './App';
 
 test('renders learn Jenkins link', () => {
   render(<App />);
-  const linkElement = screen.getByText(/Jenkins/i);
+  const linkElement = screen.getByText(/Jenkinsfirst/i);
   expect(linkElement).toBeInTheDocument();
 });
